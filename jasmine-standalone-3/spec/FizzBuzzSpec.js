@@ -12,4 +12,8 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(10)).toEqual("Buzz");
   });
 
+  it("should return number if none of the above", function() {
+    expect(fizzBuzz(13)).toEqual(13);
+  });
+
 });
